@@ -1,3 +1,6 @@
+run:
+	@$(PWD)/gradlew bootRun --warning-mode all
+
 build:
 	@$(PWD)/gradlew clean build --warning-mode all
 
